@@ -1,0 +1,44 @@
+@import 'normalize.scss';
+@import 'components/AddPicture/AddPicture.scss';
+@import 'components/DragAndDrop/DragAndDrop.scss';
+@import 'components/Gallery/Gallery.scss';
+@import 'components/Img/Img.scss';
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+html {
+  box-sizing: border-box;
+  background-color: #CCCCFF;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.appWrapper {
+  margin-top: 3vh;
+  text-align: center;
+}
